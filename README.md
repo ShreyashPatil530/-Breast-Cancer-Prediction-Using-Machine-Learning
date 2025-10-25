@@ -8,7 +8,7 @@
 
 > **A complete end-to-end machine learning project for breast cancer diagnosis prediction with 98%+ accuracy**
 
-![Project Banner](images/banner.png)
+![Project Banner](Gemini_Generated_Image_lhyrntlhyrntlhyr.png)
 
 ---
 
