@@ -273,7 +273,7 @@ Actual Benign    72       0      ← Perfect! No false positives
 
 ### 2. Feature Importance Analysis
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](feature_importance.png)
 
 **Top 5 Most Important Features:**
 1. **concave points_mean** (13.0%) - Most discriminative
