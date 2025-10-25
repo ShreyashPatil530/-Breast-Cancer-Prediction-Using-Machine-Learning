@@ -178,50 +178,6 @@ python main.py --train --evaluate --save-model
 
 ---
 
-## 📁 Project Structure
-
-```
-breast-cancer-prediction/
-│
-├── data/
-│   └── data.csv                      # Wisconsin dataset
-│
-├── notebooks/
-│   └── breast_cancer_prediction.ipynb # Main Jupyter notebook
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py         # Data cleaning & scaling
-│   ├── feature_engineering.py        # Feature creation
-│   ├── model_training.py             # ML model training
-│   ├── model_evaluation.py           # Performance metrics
-│   └── visualization.py              # Plotting functions
-│
-├── models/
-│   ├── best_model.pkl               # Trained ensemble model
-│   └── scaler.pkl                   # Feature scaler
-│
-├── images/
-│   ├── eda_visualizations.png       # EDA plots
-│   ├── feature_importance.png       # Feature rankings
-│   ├── model_comparison.png         # Model performance
-│   ├── detailed_evaluation.png      # ROC/Confusion matrix
-│   ├── shap_importance.png          # SHAP feature importance
-│   └── shap_summary.png             # SHAP summary plot
-│
-├── results/
-│   ├── predictions.csv              # Test predictions
-│   ├── model_comparison.csv         # All model results
-│   └── project_summary.txt          # Final report
-│
-├── predict_function.py              # Deployment prediction function
-├── main.py                          # Main execution script
-├── requirements.txt                 # Python dependencies
-├── README.md                        # This file
-└── LICENSE                          # MIT License
-```
-
----
 
 ## 🎯 Model Performance
 
@@ -237,7 +193,7 @@ breast-cancer-prediction/
 
 ### Confusion Matrix Analysis
 
-![Detailed Evaluation](images/detailed_evaluation.png)
+![Detailed Evaluation](detailed_evaluation.png)
 
 **Confusion Matrix Breakdown:**
 ```
@@ -263,7 +219,7 @@ Actual Benign    72       0      ← Perfect! No false positives
 
 ### 1. Exploratory Data Analysis
 
-![EDA Visualizations](images/eda_visualizations.png)
+![EDA Visualizations](eda_visualizations.png)
 
 **Key Insights:**
 - Dataset is slightly imbalanced (63% Benign, 37% Malignant)
@@ -284,7 +240,7 @@ Actual Benign    72       0      ← Perfect! No false positives
 
 ### 3. Model Comparison
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](model_comparison.png)
 
 **Performance Ranking:**
 
@@ -300,9 +256,9 @@ Actual Benign    72       0      ← Perfect! No false positives
 
 ### 4. SHAP Explainability
 
-![SHAP Feature Importance](images/shap_importance.png)
+![SHAP Feature Importance](shap_importance.png)
 
-![SHAP Summary Plot](images/shap_summary.png)
+![SHAP Summary Plot](shap_summary.png)
 
 **SHAP Analysis Reveals:**
 - **texture_worst** has highest impact on predictions
